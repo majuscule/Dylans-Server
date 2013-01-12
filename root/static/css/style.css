@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'InconsolataMedium';
+    src: url('/static/fonts/inconsolata-webfont.eot');
+    src: url('/static/fonts/inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/inconsolata-webfont.woff') format('woff'),
+         url('/static/fonts/inconsolata-webfont.ttf') format('truetype'),
+         url('/static/fonts/inconsolata-webfont.svg#InconsolataMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url('/static/font/museo_slab_500-webfont.eot');
+    src: url('/static/font/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/museo_slab_500-webfont.woff') format('woff'),
+         url('/static/font/museo_slab_500-webfont.ttf') format('truetype'),
+         url('/static/font/museo_slab_500-webfont.svg#MuseoSlab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url('/static/images/background.png');
+}
+
+h3 {
+    margin-top:15px;
+    font-family:MuseoSlab500;
+}
+
+h1,h2 {
+    font-size:150%;
+    font-family:MuseoSlab500;
+}
+
+a {
+    text-decoration:none;
+}
+
+li {
+    list-style:none;
+    display:block;
+}
+
+#structure {
+    width:960px;
+    margin:30px auto 0;
+}
+
+#banner {
+    margin-left:15px;
+}
+
+#content {
+    width:725px;
+    min-height:300px;
+    margin-bottom:20px;
+    margin-right:15px;
+    text-align:left;
+    padding:5px 5px 25px 20px;
+}
+
+#portfolio {
+    float:left;
+    width:350px;
+}
+
+#portfolio li {
+    font-family:InconsolataMedium;
+}
+
+#exhibit {
+    float:right;
+    margin-left:17px;
+    font-family:InconsolataMedium;
+}
+
+#exhibit h1 {
+    margin-bottom:15px;
+}
+
+.exhibit {
+    width:300px;
+    min-height:475px;
+    border:1px solid #000;
+    display:none;
+    text-align:left;
+    padding:10px;
+}
+
+.shownDiv {
+    border:1px solid #000;
+}
+
+#contact_me {
+    margin-top:100px;
+    text-align:left;
+    clear:both;
+}
+
+#notes,#note {
+    text-align:left;
+    margin-top:20px;
+    font-family:InconsolataMedium;
+}
+
+#notes h1 {
+margin-bottom:10px;
+}
+
+.date {
+color:grey;
+}
+
+#comment_link {
+font-size:80%;
+}
+
+.note {
+margin-bottom:40px;
+font-family:InconsolataMedium;
+}
+
+p {
+margin-top:15px;
+}
+
+pre {
+margin-top:20px;
+margin-bottom:20px;
+width:100%;
+overflow:auto;
+}
+
+#navigation {
+text-align:left;
+}
+
+#comments {
+margin-top:30px;
+border-left:1px solid #000;
+padding-left:15px;
+}
+
+.comment {
+margin-bottom:30px;
+}
+
+#comment {
+padding-left:15px;
+border-left:1px solid #000;
+margin-top:15px;
+text-align:left;
+}
+
+#comment .submit {
+background:#FFF;
+border:1px solid #FFF;
+color:blue;
+cursor:pointer;
+font-size:120%;
+font-weight:700;
+margin-top:20px;
+}
+
+#recaptcha_widget {
+position:relative;
+display:none;
+}
+
+#recaptcha_image {
+top:0;
+right:0;
+float:left;
+position:relative;
+width:100px;
+}
+
+.recaptcha_help {
+font-family:MuseoSlab500;
+font-size:80%;
+}
+
+#drawcss_title,#drawcss_entry,#youtube_backup_title,#i_like_pandora_title,#fvlc_title,#irssi-notify_title, #powermate_title {
+font-size:1.6em;
+}
+
+#youtube_backup_entry,#i_like_pandora_entry,#matrixnullspace_entry,#fvlc_entry,#irssi-notify_entry,#dylansserver_entry,#metadata_writer_entry, #powermate_entry {
+font-size:1.4em;
+}
+
+#comment input,#comment textarea {
+border:1px solid grey;
+font-family:InconsolataMedium;
+}
+
+#not_human,#blank_comment {
+color:red;
+display:none;
+font-weight:700;
+margin-bottom:15px;
+margin-top:15px;
+}
