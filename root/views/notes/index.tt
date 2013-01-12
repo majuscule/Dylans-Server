@@ -1,0 +1,28 @@
+<div id="structure">
+  <div id="banner">
+    <a href="<?php echo $this->home_link ?>">
+    <img src="/static/images/dylansserver.png" alt="dylansserver"
+    border="0"></a>
+  </div>
+
+  <div id="content">
+    <div id='notes'>
+      <div class='note'>
+          <h1>post title</h1>
+          post copy
+      </div>
+      <br><br><br><br>
+      <div id='navigation'>
+          comments?
+        <h1>
+        <a href="/notes/">back to notes/</a>
+        </h1>
+      </div>
+      <div id="contact_me"><h1><a href=
+      "mailto:dylan@psu.edu">dylan</a></h1><a href=
+      "mailto:dylan@psu.edu">@psu.edu</a>
+      </div>
+    </div>
+  <br>
+  <br>
+</div>
