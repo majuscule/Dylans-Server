@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <link href='/static/css/style.css' rel='stylesheet' type='text/css'>
+  <title>404: not found</title>
+</head>
+
+<body>
+  <div style=
+  "margin-left:15px;text-align:center;font-family:sans-serif;">
+    <span style=
+    "font-size:20em;font-family:'MuseoSlab500';">sorry</span><br>
+    <br>
+    <span style="font-size:3em;font-family:'InconsolataMedium'">can't find that. maybe try
+    <a href="/">here</a>?</span><br>
+  </div>
+</body>
+</html>
