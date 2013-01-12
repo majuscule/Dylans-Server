@@ -10,6 +10,7 @@ __PACKAGE__->config(
     INCLUDE_PATH => [
         Dylans::Server->path_to('root', 'views'),
     ],
+    WRAPPER => 'wrapper.tt',
 );
 
 =head1 NAME
