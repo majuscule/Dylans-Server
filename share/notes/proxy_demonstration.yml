@@ -1,0 +1,18 @@
+---
+- title : proxy demonstration
+  uri   : proxy-demonstration
+  date  : 2012/04/02
+  note  : >
+    Proxies are servers that act as intermediaries between clients and other servers. Requests made to the proxy server are made to the content or service provider by the proxy server on behalf of the client.
+
+    Before permitting a request on behalf of a client, a proxy server can apply arbitrary rules to filter or authorize traffic. Validated requests can also be altered, as well as content returned to the client.
+
+    Proxies can be used for anonymity, bypassing geographical filters, logging, authorization, filtering and caching.
+
+    Reverse proxies work on behalf on content or service providers to cache dynamically generated content and load balance applications. Reverse proxies can also change content served, but generally do not except sometimes compression.
+
+    The Tor (The Onion Router) is a layered proxy system intended for anonymity and bypassing harmful filtering. One example of its use is to bypass the Great Firewall of China, a politically purposed firewall administrated by the People's Republic of China, censoring politically sensitive material. The Tor proxy randomly bounces traffic through a network of global volunteer relays. Tor traffic is routed through two nodes before reaching the destination server. The first Tor relay knows the clients IP, but is not privy to the encrypted data. The intermediary servers are unaware of the origin or data. Exit relays know transmitted data, but not the origin.
+
+    This presentation requires a preconfigured Squid server.
+
+    (ports are arbitrary everywhere, but standardized by the Internet Assigned Numbers Authority (IANA), see /etc/services)

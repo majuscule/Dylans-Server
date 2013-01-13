@@ -3,6 +3,7 @@ use Moose;
 use namespace::autoclean;
 
 use Catalyst::Runtime 5.80;
+use File::ShareDir::ProjectDistDir ( distname => 'Dylans::Server' );
 
 # Set flags and add plugins for the application.
 #

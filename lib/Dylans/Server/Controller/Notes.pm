@@ -1,6 +1,7 @@
 package Dylans::Server::Controller::Notes;
 use Moose;
 use namespace::autoclean;
+use Data::Dumper;
 
 BEGIN { extends 'Catalyst::Controller'; }
 
@@ -24,6 +25,8 @@ Catalyst Controller.
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
 
+    warn Dumper($c->model('Notes')->list_notes);
+    $c->stash( "notes" => $c->model('Notes')->list_notes );
     $c->stash( "template" => "notes/index.tt" );
 }
 

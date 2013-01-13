@@ -7,11 +7,15 @@
 
   <div id="content">
     <div id='notes'>
+      [% FOREACH note IN notes %]
       <div class='note'>
-          <h1>post title</h1>
-          post copy
+          <h1>
+            <span class="date">[% note.date %]/</span>
+            <a href="[% note.uri %]">[% note.title %]</a>
+          </h1>
+          [% note.note %]
       </div>
-      <br><br><br><br>
+      [% END %]
       <div id='navigation'>
           comments?
         <h1>
